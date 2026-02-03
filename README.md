@@ -36,6 +36,8 @@ Embeddings & LLM	Gemini (OpenAI-compatible API)
 Document Processing	LlamaIndex
 Frontend	Streamlit
 Language	Python
+
+
 ⚙️ Setup Instructions
 1️⃣ Clone the repository
 git clone https://github.com/your-username/rag-production-app.git
