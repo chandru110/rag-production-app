@@ -9,5 +9,11 @@ wheels/
 # Virtual environments
 .venv
 
-# Environment variables
+# Environment
 .env
+
+# Vector database files
+qdrant_storage/
+
+# Uploaded documents
+uploads/
