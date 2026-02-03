@@ -22,23 +22,8 @@ Built using FastAPI, Inngest, Qdrant (Dockerized), Gemini (OpenAI-compatible API
 
 🖥️ Interactive Streamlit UI for end users
 
-🧱 System Architecture
-User (Streamlit UI)
-        |
-        v
-FastAPI Web Server
-        |
-        v
-Inngest (Event Orchestration & Observability)
-   ├── PDF Ingestion Pipeline
-   │     ├── Load & Chunk PDF (LlamaIndex)
-   │     ├── Generate Embeddings (Gemini)
-   │     └── Store Vectors (Qdrant - Docker)
-   |
-   └── Query Pipeline
-         ├── Embed User Question
-         ├── Vector Similarity Search (Qdrant - Docker)
-         └── LLM Answer Generation (Gemini)
+<img width="743" height="493" alt="image" src="https://github.com/user-attachments/assets/2a34a138-afaf-45c8-be01-1052293a1d91" />
+
 
 🛠️ Tech Stack
 Layer	Technology
