@@ -21,6 +21,7 @@ Built using FastAPI, Inngest, Qdrant (Dockerized), Gemini (OpenAI-compatible API
 📊 Full observability of ingestion and query pipelines
 
 🖥️ Interactive Streamlit UI for end users
+🧱 System Architecture
 
 <img width="743" height="493" alt="image" src="https://github.com/user-attachments/assets/2a34a138-afaf-45c8-be01-1052293a1d91" />
 
