@@ -7,7 +7,7 @@ class QdrantStorage:
         self,
         path="qdrant_storage",
         collection="docs",
-        dim=768,
+        dim=3072,
     ):
         self.client = QdrantClient(path=path, timeout=30)
         self.collection = collection

@@ -11,8 +11,8 @@ client = OpenAI(
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
 )
 
-EMBED_MODEL = "text-embedding-004"
-EMBED_DIM = 768
+EMBED_MODEL = "gemini-embedding-001"
+EMBED_DIM = 3072
 
 splitter = SentenceSplitter(chunk_size=1000, chunk_overlap=200)
 
